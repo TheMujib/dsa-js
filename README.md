@@ -16,7 +16,7 @@ Which You can try to implement code as given in Pseudo Code before watching actu
 
 ## Images
 
-![](https://pandao.github.io/images/sorting.png)
+![](https://raw.githubusercontent.com/TheMujib/dsa-js/main/images/sorting.png)
 
 ---
 
