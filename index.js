@@ -8,21 +8,19 @@ const allBtns = document.querySelectorAll('.btn');
 
 //Swap Helper
 const swap = function (idx1, idx2) {
-  return new Promise((resolve) => {
-    // ES6 Method To Swap Variables
-    [
-      ([idx1.style.transform, idx2.style.transform] = [
-        idx2.style.transform,
-        idx1.style.transform,
-      ]),
-    ];
+  // ES6 Method To Swap Variables
 
-    window.requestAnimationFrame(function () {
-      setTimeout(() => {
-        container.insertBefore(idx2, idx1);
-        resolve();
-      }, 1);
-    });
+  [idx1.style.height, idx2.style.height] = [
+    idx2.style.height,
+    idx1.style.height,
+  ];
+};
+
+const animate = (delay) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('');
+    }, delay);
   });
 };
 
@@ -91,4 +89,4 @@ const enableAllBtn = function () {
   enableBtns(allBtns);
 };
 
-export { swap, delay, disableAllBtn, enableAllBtn };
+export { swap, animate, delay, disableAllBtn, enableAllBtn };
