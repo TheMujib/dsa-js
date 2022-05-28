@@ -28,6 +28,7 @@ Which You can try to implement code as given in Pseudo Code before watching actu
 
 - **Sorting**
   - Bubble Sort
+  - Selection Sort
 
 ---
 
