@@ -40,9 +40,8 @@ const selectionSort = async function () {
   }
 };
 
-const selectionSortbtn = document.querySelector('.selectionsort');
-selectionSortbtn.addEventListener('click', async function () {
-  console.log('gg');
+const selectionSortBtn = document.querySelector('.selectionsort');
+selectionSortBtn.addEventListener('click', async function () {
   disableAllBtn();
   await selectionSort();
   enableAllBtn();

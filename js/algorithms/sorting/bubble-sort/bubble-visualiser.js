@@ -33,8 +33,8 @@ const bubbleSort = async function () {
   }
 };
 
-const bubSortbtn = document.querySelector('.bubblesort');
-bubSortbtn.addEventListener('click', async function () {
+const bubbleSortBtn = document.querySelector('.bubblesort');
+bubbleSortBtn.addEventListener('click', async function () {
   disableAllBtn();
   await bubbleSort();
   enableAllBtn();
